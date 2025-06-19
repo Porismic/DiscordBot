@@ -5059,8 +5059,8 @@ class EmojiSelectionView(discord.ui.View):
 
         elif action.value == "list":
             embed = discord.Embed(
-            title="Autoresponders",
-            color=BOT_CONFIG["default_embed_color"]
+                title="Autoresponders",
+                color=BOT_CONFIG["default_embed_color"]
         )
         
         if not autoresponders:
